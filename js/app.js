@@ -23,7 +23,7 @@ function comprar() {
 
     // Verificar se pode comprar
     if (quantidadeCompra > qtdDisponivel) {
-        alert (`Os ingressos da ${tipoIngresso.textContent} esgotaram!`)
+        alert (`Os ingressos da ${tipoIngresso} esgotaram!`)
         return;
     }
 
